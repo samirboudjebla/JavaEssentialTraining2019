@@ -10,5 +10,27 @@ public class Main {
                         "July", "August", "September",
                         "October", "November", "December"};
 
+//        for (int i = 0; i < 12; i++) {
+//            System.out.println(months[i]);
+//        }
+
+//        for (String month : months) {
+//            System.out.println(month);
+//        }
+
+//        var whileCounter = 0;
+//
+//        while (whileCounter< months.length){
+//            System.out.println(months[whileCounter]);
+//            whileCounter++;
+//        }
+
+        var doCounter = 0;
+
+        do{
+            System.out.println(months[doCounter]);
+            doCounter++;
+        }while (doCounter< months.length);
+
     }
 }
